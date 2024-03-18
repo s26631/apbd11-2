@@ -16,3 +16,19 @@ static double Adavg(int[] numbers) {
 int[] arr = {1,2,3,4,};
 double average = Adavg(arr);
 Console.WriteLine(average);
+
+static int biggest(int[]numbers)
+{
+    int biggestint = numbers[0];
+    for(int i = 0 ; i < numbers.Length ; i++)
+    {
+        if (biggestint < numbers[i])
+            biggestint = numbers[i];
+    }
+
+
+    return biggestint;
+}
+int[] numbers = { 1, 2, 3, 4, 5, 6 };
+int biggestint = biggest(numbers);
+Console.WriteLine(biggestint);
