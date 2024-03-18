@@ -19,7 +19,7 @@ Console.WriteLine(average);
 
 static int biggest(int[]numbers)
 {
-    int biggestint = numbers[0];
+    int biGGestint = numbers[0];
     for(int i = 0 ; i < numbers.Length ; i++)
     {
         if (biggestint < numbers[i])
