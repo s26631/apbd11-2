@@ -32,3 +32,5 @@ static int biggest(int[]numbers)
 int[] numbers = { 1, 2, 3, 4, 5, 6 };
 int biggestint = biggest(numbers);
 Console.WriteLine(biggestint);
+
+int y;
